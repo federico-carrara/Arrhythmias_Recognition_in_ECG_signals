@@ -9,7 +9,7 @@ In this project, I train a *Wide-ResNet* model to classify ECG signals relative 
 
 *Data Augmentation* and *Weighting* are used to account for the class imbalance in the dataset (anomalous heartbeats are rare overall).
 
-The trained model shows *Accuracy* of ~98%, *Precision* of ~87%, and *Recall* of ~95%.
+The trained model achieved *Accuracy* of ~98%, *Precision* of ~87%, and *Recall* of ~95%.
 
 
 
