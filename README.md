@@ -5,6 +5,8 @@ Arrhythmias are one of the most common types of Cardiovascular disease and one o
 
 For this reason, computer-aided diagnosis systems are an efficient tool to provide accurate automatic diagnosis of arrhythmias from the analysis of ECG signals.
 
+![Normal Sinus Rythm ECG heartbeat](./images/NSRrythm.png)  ![Premature atrial contraction ECG heartbeat](./images/PACrythm.png) 
+
 In this project, I train a *Wide-ResNet* model to classify ECG signals relative to single heartbeats. The model is the combination of a 1D *ResNet* that takes as input the ECG signal, and a *FFNN* that takes as input some additional features imputed from the ECG recording (e.g., distance from the peaks).
 
 *Data Augmentation* and *Weighting* are used to account for the class imbalance in the dataset (anomalous heartbeats are rare overall).
